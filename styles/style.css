@@ -1,0 +1,198 @@
+.container {
+            
+    padding-right: 15px;
+    padding-left: 15px;
+    
+    
+}
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* ***************beginn header*************/
+.header{
+    text-align: center;
+}
+.header h1{
+    font-family: 'Noto Serif', serif;
+    color:#2a9d8f;
+    font-size: 78px;
+    
+}
+/* ***************end header*************/
+
+/* ***************beginn info*************/    
+.info{
+    background: #f8edeb;
+    height: 400px;
+}
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    
+}
+.col-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
+}
+
+
+.info h3{
+    color: #264653;
+    font-size: 55px;
+    font-weight: 600;
+    margin: 40px;
+    cursor: pointer;
+    
+}
+.info h3 a{
+    text-decoration:underline;
+    color: #264653;
+}
+.info p{
+    color: #6b705c;
+    margin: 10px 40px;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom:30px;
+    
+}
+.info .link{
+    color: #fff;
+    background-color: #2a9d8f;
+    padding: 9px 37px;
+    text-decoration: none;
+    margin: 20px 40px;
+    border-radius: 5px;
+    font-size: 19px;
+    
+}
+/* ***************end info*************/
+
+/* ***************begin formular*************/
+h2{
+    text-align: center;
+    color: #264653;
+    font-size: 44px;
+    font-weight: 600;
+    margin:60px 40px 10px;
+    padding: 35px;
+
+}
+.question .form-group{
+    border: 4px solid #2a9d8f;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 68px;
+    padding : 5px 9px;
+    color: #6b705c;
+    
+    line-height: 1.5;
+    
+
+
+}
+.form-group p:first-of-type{
+    
+    position: absolute;
+    background-color: #2a9d8f;
+    color: #fff;
+    top: -63px;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 3px;
+    left: -4px;
+}
+#response{
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    color:#6b705c;
+    background:#f8edeb;
+}
+select{
+    display: block;
+    width: 198px;
+    background: #f8edeb;
+    font-size: 17px;
+    padding: 5px;
+    color: #6b705c;
+    border-radius: 5px;
+}
+.comment{
+    width:600px;
+    height:150px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.comment::before{
+    content:"yassine";
+    color:#08526d;
+    font-size: 12px;
+    position: relative;
+    top:-1px;
+}
+#commenthelp{
+    position: absolute;
+    background-color: #2a9d8f;
+    color: #fff;
+    top: 1694px;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 3px;
+    left: 23px
+}
+.question .submit{
+    color: #fff;
+    background-color: #2a9d8f;
+    padding: 6px 24px;
+    
+    
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+/* ***************end formular*************/
+
+/* ***************begin contact*************/
+.gift{
+    background-color: #f8edeb;
+    text-align: center;
+}
+.gift input{
+    width: 600px;
+    padding: 7px;
+    border-radius: 5px;
+    height: 25px;
+    margin-bottom: 18px;
+}
+.gift p{
+    font-weight: 300;
+    line-height: 41px;
+    font-size: 20px;
+    color: #6b705c;
+   
+}
+#getgift{
+    width: 618px;
+    padding: 7px;
+    border-radius: 5px;
+    height: 43px;
+    margin-bottom: 18px;
+    background-color: #264653;
+    color: #fff;
+}
+/* ***************end contact*************/
+
+/* ***************beginn footer*************/
+.footer{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+/* ***************end footer*************/

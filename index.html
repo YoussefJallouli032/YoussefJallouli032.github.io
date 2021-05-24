@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <title>Youssef</title>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <h1>Survey</h1>
+            
+        </div>
+        
+    </div>
+    <div class="info">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6">
+                    <img src="images/capture.png" alt="foto" width="663px"  height="400px" >
+                </div>
+                <div class="col-6">
+                    <h3><a href="https://www.maxi.ca/" target="_blank" >Maxi-website customer satisfaction survey</a></h3>
+                    <p>
+                        Your opinion is important to us!
+                        Complete this brief survey for a chance to
+                        <b>WIN ONE OF THREE MAXI GIFT CARD VALUED AT $200</b>
+                        Three new winners each month.</p>
+                    <a href="https://www.maxi.ca/" class="link" target="_blank">Maxi</a>
+                </div>
+                
+            </div>
+        </div>
+        
+
+        
+    </div>
+    <div class="question">
+        <div class="container">
+            <h2>Our questions for you</h2>
+            <form >
+                <div class="form-group">
+                    <p>Question 1</p>
+                    <p>What is the feature you love the most about shopping online?</p>
+                    <textarea name="response" id="response" placeholder="Enter your answer..."></textarea>
+                </div>
+                <div class="form-group">
+                    <p>Question 2</p>
+                    <p>How attractive is Maxi-website interface?</p>
+                    <input type="radio" name="question2" value="Not at all attractive"> 
+                    <label>Not at all attractive</label> <br>
+                    <input type="radio" name="question2" value="Not attractive">
+                    <label>Not attractive</label> <br>
+                    <input type="radio" name="question2" value="Attractive">
+                    <label>Attractive</label><br>
+                    <input type="radio" name="question2" value="Very attractive">
+                    <label>Very attractive</label><br>
+
+                </div>
+                <div class="form-group">
+                    <p>Question 3</p>
+                    <label for="q3">The products are well classified:</label>
+                    <select name="question3" id ="q3">
+                        <option value="Completely disagree">Completely disagree</option> 
+                        <option value="Disagree">Disagree</option>
+                        <option value="Agree">Agree</option>
+                        <option value="Strongly agree">Strongly agree</option>
+                        <option value="Not applicable">Not applicable</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <p>Question 4</p>
+                    <p>What features shoud be improved in the website?</p>
+                    <input type="checkbox" id ="q41" name="fist" value="Logging process">
+                    <label for="q41"> Logging process</label><br>
+                    <input type="checkbox" id="q42" name="second" value="More product details">
+                    <label for="q42"> More product details</label><br>
+                    <input type="checkbox" id="q43" name="second" value="Quality of images">
+                    <label for="q43"> Quality of images</label><br>
+                    <input type="checkbox" id="q44" name="second" value="Flyers & Deals">
+                    <label for="q44"> Flyers & Deals</label><br>
+                    <input type="checkbox" id="q45" name="second" value="The cart">
+                    <label for="q45"> The cart</label><br>
+                    <input type="checkbox" id="q46" name="second" value="Checkout process">
+                    <label for="q46"> Checkout process</label><br>
+                    <input type="checkbox" id="q47" name="second" value="The loading speed of a website">
+                    <label for="q47"> The loading speed of a website</label><br>
+                    <input type="checkbox" id="q48" name="second" value="Other">
+                    <label for="q48"> Other, please specify in the comment section</label><br>
+                    
+                </div>
+                
+                
+                <textarea class="form-group comment" type="text" name="message"  height="200px" placeholder="Do you have any comments or suggestions regarding the Maxi-website?"></textarea><br>
+                <p id ="commenthelp">Comment</p>
+                
+                <input type="submit" class="submit" value="submit">
+                
+                
+        
+    
+            </form>
+        </div>
+    </div>
+    <div class="gift">
+        <div class=container-fluid>
+            <h2>Personal information</h2>
+            
+            <form >
+                
+                <input  type="text" name="username" placeholder="username"><br>
+                <input  type="email" name="email" placeholder="email"><br>
+                <input type="text" name="cell" placeholder="cell"><br>
+                
+                <button id="getgift" >Submit</button>
+                
+                
+
+
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright text-center"> Copyright &copy; 2021 <span> John Snow</span> .Inc</div>
+    </div>
+    
+    
+</body>
+</html>
